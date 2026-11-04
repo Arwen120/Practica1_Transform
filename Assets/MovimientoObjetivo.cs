@@ -3,13 +3,18 @@ using UnityEngine;
 
 public class MovimientoObjetivo : MonoBehaviour
 {
-    public Vector3 goal;
+    public Transform goal;
     public float speed = 0.1f;
 
-   
+   void Start()
+    {
+        this.transform.LookAt(goal.position);
+    }
 
     void Update()
     {
-        this.transform.Translate(goal.normalized * speed * Time.deltaTime);
+        Vector3 direction = goal.position - this.transform.position;
+
+        this.transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
     }
 }
