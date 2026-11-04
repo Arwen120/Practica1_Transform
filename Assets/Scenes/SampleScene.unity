@@ -381,7 +381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb3146f30f91f04aa21ebbf4365668a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovimientoObjetivo
-  goal: {x: 0, y: 0.01, z: 0.05}
+  goal: {x: 1, y: 0, z: 0}
+  speed: 1
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
