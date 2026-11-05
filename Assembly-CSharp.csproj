@@ -55,6 +55,9 @@
     <Compile Include="Assets\MoverObjetivo.cs" />
     <Compile Include="Assets\TutorialInfo\Readme.cs" />
     <Compile Include="Assets\SeguirObjetivoForward.cs" />
+    <Compile Include="Assets\JitteringMagnitud.cs" />
+    <Compile Include="Assets\JitteringDistancia.cs" />
+    <Compile Include="Assets\JitteringMoveTowards.cs" />
     <Compile Include="Assets\MovimientoObjetivo.cs" />
     <Compile Include="Assets\SeguirObjetivo.cs" />
   </ItemGroup>
