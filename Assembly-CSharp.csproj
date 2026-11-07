@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Assets\MoverObjetivo.cs" />
     <Compile Include="Assets\TutorialInfo\Readme.cs" />
+    <Compile Include="Assets\GiroSuave.cs" />
     <Compile Include="Assets\SeguirObjetivoForward.cs" />
     <Compile Include="Assets\JitteringMagnitud.cs" />
     <Compile Include="Assets\JitteringDistancia.cs" />

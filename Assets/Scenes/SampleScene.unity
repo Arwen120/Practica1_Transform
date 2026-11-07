@@ -795,6 +795,8 @@ GameObject:
   - component: {fileID: 1944366224}
   - component: {fileID: 1944366223}
   - component: {fileID: 1944366222}
+  - component: {fileID: 1944366227}
+  - component: {fileID: 1944366226}
   - component: {fileID: 1944366225}
   - component: {fileID: 1944366221}
   m_Layer: 0
@@ -911,6 +913,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SeguirObjetivo
   objetivo: {fileID: 2102173297}
   velocidad: 2
+--- !u!114 &1944366226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944366220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f591211a3c2e64b86813df0beba0c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SeguirObjetivoForward
+  objetivo: {fileID: 383011200}
+  velocidad: 2
+--- !u!114 &1944366227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944366220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5c2f06a888289499ba0d040b53bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JitteringMagnitud
+  objetivo: {fileID: 383011200}
+  velocidad: 2
+  accuracy: 0.01
 --- !u!1 &2102173293
 GameObject:
   m_ObjectHideFlags: 0
