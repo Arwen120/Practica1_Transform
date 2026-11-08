@@ -1,17 +1,17 @@
  Práctica 3: Movimiento hacia un objetivo
 
  Objetivo
-En esta práctica hemos modificado el movimiento del objeto para que se desplace hacia la posición de otro objeto de la escena.
+En esta práctica se ha modificado el movimiento del objeto para que se desplace hacia la posición de otro objeto de la escena.
 
  Desarrollo
 
-Primero, hemos creado una esfera llamada `Objetivo` y la hemos colocado en la escena. Después, hemos añadido una variable de tipo `Transform` para poder utilizar su posición como destino.
+Primero, he creado una esfera llamada `Objetivo` y la he colocado en la escena. Después, se ha añadido una variable de tipo `Transform` para poder utilizar su posición como destino.
 
-También hemos utilizado `LookAt()` para que el cubo mire hacia el objetivo antes de comenzar a moverse.
+También he utilizado `LookAt()` para que el cubo mire hacia el objetivo antes de comenzar a moverse.
 
-Para calcular el movimiento, restamos la posición del cubo a la posición del objetivo. Después normalizamos esa dirección y utilizamos `Time.deltaTime` para conseguir un movimiento independiente de la velocidad de los fotogramas.
+Para calcular el movimiento, se resto la posición del cubo a la posición del objetivo. Después se normalizo esa dirección y se utilizo `Time.deltaTime` para conseguir un movimiento independiente de la velocidad de los fotogramas.
 
-Como la dirección se calcula en coordenadas del mundo, utilizamos `Space.World` para que el movimiento siga esa dirección correctamente.
+Como la dirección se calcula en coordenadas del mundo,  se utilizo `Space.World` para que el movimiento siga esa dirección correctamente.
 
  Código utilizado
 
