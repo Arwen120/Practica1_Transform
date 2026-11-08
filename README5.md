@@ -2,11 +2,11 @@ Práctica 5: Seguimiento de un objetivo
 
  Objetivo
 
-En esta práctica hemos creado un sistema en el que podemos controlar un cubo con las flechas del teclado mientras otro objeto lo persigue continuamente.
+En esta práctica se ha creado un sistema en el que se puede controlar un cubo con las flechas del teclado mientras otro objeto lo persigue continuamente.
 
  1. Movimiento del objetivo
 
-Hemos creado un cubo llamado `Objetivo`, que podemos mover utilizando las flechas del teclado.
+Se ha creado un cubo llamado `Objetivo`, que se puede mover utilizando las flechas del teclado.
 
 Código utilizado (`MoverObjetivo.cs`):
 
@@ -31,7 +31,7 @@ public class MoverObjetivo : MonoBehaviour
 
  2. Seguimiento del objetivo
 
-Hemos creado otro cubo llamado `Personaje`, que sigue continuamente al cubo `Objetivo` sin utilizar simulación física.
+Se ha creado otro cubo llamado `Personaje`, que sigue continuamente al cubo `Objetivo` sin utilizar simulación física.
 
 Código utilizado (`SeguirObjetivo.cs`):
 
@@ -65,7 +65,7 @@ public class SeguirObjetivo : MonoBehaviour
 
 La variable pública `velocidad` permite modificar la velocidad inicial del personaje desde el Inspector de Unity.
 
-Además, cada vez que pulsamos la barra espaciadora, la velocidad aumenta en una unidad.
+Además, cada vez que se pulsa la barra espaciadora, la velocidad aumenta en una unidad.
 
  4. Resultados
 
