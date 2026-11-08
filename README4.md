@@ -2,13 +2,13 @@
 
  Objetivo
 
-En esta práctica hemos añadido una herramienta de depuración para visualizar la dirección hacia la que se mueve el cubo.
+En esta práctica se ha añadido una herramienta de depuración para visualizar la dirección hacia la que se mueve el cubo.
 
  Desarrollo
 
-Hemos utilizado `Debug.DrawRay()` para dibujar un rayo rojo desde la posición del cubo en dirección al objetivo.
+Se ha utilizado `Debug.DrawRay()` para dibujar un rayo rojo desde la posición del cubo en dirección al objetivo.
 
-Esta herramienta nos permite comprobar visualmente que la dirección se está calculando correctamente.
+Esta herramienta permite comprobar visualmente que la dirección se está calculando correctamente.
 
 Los parámetros utilizados son:
 
@@ -30,6 +30,6 @@ Vector3 direction = goal.position - this.transform.position;
 
  Resultado
 
-Al ejecutar el proyecto, podemos observar un rayo rojo que sale del cubo y apunta hacia la esfera `Objetivo`. Esto nos permite comprobar que la dirección calculada es correcta.
+Al ejecutar el proyecto, se puede observar un rayo rojo que sale del cubo y apunta hacia la esfera `Objetivo`. Esto permite comprobar que la dirección calculada es correcta.
 
 ![GIF de la práctica 4](Documentation/Practica4_Movimiento.gif)
