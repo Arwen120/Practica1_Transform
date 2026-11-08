@@ -4,7 +4,7 @@
 
 En esta práctica se mejora el movimiento rectilíneo hacia un objetivo mediante una rotación progresiva.
 
-Anteriormente utilizábamos `transform.LookAt(objetivo)`, que hacía que el personaje girase instantáneamente hacia el objetivo. Para evitar esos cambios bruscos, utilizamos `Quaternion.Slerp`, que permite interpolar suavemente entre la rotación actual y la rotación deseada.
+Anteriormente se utilizo `transform.LookAt(objetivo)`, que hacía que el personaje girase instantáneamente hacia el objetivo. Para evitar esos cambios bruscos, se utilizo `Quaternion.Slerp`, que permite interpolar suavemente entre la rotación actual y la rotación deseada.
 
  Código utilizado
 
